@@ -1,0 +1,76 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Bazier </title>
+        <style>
+            canvas{
+                border: 2px solid red;
+            }
+        </style>
+        <script>
+            function loader(){
+                var canvas = document.getElementById('canvas');
+                var canvas1 = canvas.getContext('2d');
+                canvas1.strokeStyle = 'rgba(0,0,0,1)';
+                //bazierCurve
+                canvas1.beginPath();
+                canvas1.moveTo(20,20);
+                canvas1.bezierCurveTo(20,100,200,100,200,20);
+                canvas1.closePath();
+                canvas1.stroke();
+                //quadratic curve
+                canvas1.beginPath();
+                canvas1.moveTo(100,250);
+                canvas1.quadraticCurveTo(249,76,400,250);
+                canvas1.closePath();
+                canvas1.stroke();
+            }
+            function changeRange(){
+                var i=document.getElementById('a').value;
+                var canvas=document.getElementById('canvas');
+                const canvas1=canvas.getContext('2d');
+                canvas1.clearRect(0,0,canvas.width,canvas.height);
+                canvas1.lineWidth=i;
+                //bazier curve
+                canvas1.beginPath();
+                canvas1.moveTo(20,20);
+                canvas1.bezierCurveTo(20,100,200,100,200,20);
+                canvas1.closePath();
+                canvas1.stroke();
+                //quadratic curve
+                canvas1.beginPath();
+                canvas1.moveTo(100,250);
+                canvas1.quadraticCurveTo(249,76,400,250);
+                canvas1.closePath();
+                canvas1.stroke();
+            }
+            function changecolor(){
+                var j=document.getElementById('b').value;
+                var canvas=document.getElementById('canvas');
+                var canvas1=canvas.getContext('2d');
+                canvas1.strokeStyle=j;
+                //bazierCurve
+                canvas1.beginPath();
+                canvas1.moveTo(20,20);
+                canvas1.bezierCurveTo(20,100,200,100,200,20);
+                canvas1.closePath();
+                canvas1.stroke();
+                //quadratic curve
+                canvas1.beginPath();
+                canvas1.moveTo(100,250);
+                canvas1.quadraticCurveTo(249,76,400,250);
+                canvas1.closePath();
+                canvas1.stroke();
+            }
+        </script>
+    </head>
+    <body onLoad="loader();">
+        <canvas id="canvas" width="500" height="340">
+        </canvas>
+        <br>
+        changeRange: <input min="1" max="5" value="1" id="a" type="range" onchange="changeRange()">
+        <br><br>
+        changecolor: <input name="Clr" type="color" id="b" onchange="changecolor()">
+    </body>
+</html>

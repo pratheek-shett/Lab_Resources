@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Picture/02.jpeg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Picture/04.jpeg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Picture/06.jpeg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Picture/08.jpeg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+</Advertisements>

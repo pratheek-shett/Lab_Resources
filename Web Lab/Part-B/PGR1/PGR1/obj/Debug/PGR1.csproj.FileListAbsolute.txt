@@ -1,0 +1,4 @@
+D:\Lab_Resources\Web Lab\Part-B\PGR1\PGR1\bin\PGR1.dll
+D:\Lab_Resources\Web Lab\Part-B\PGR1\PGR1\bin\PGR1.pdb
+D:\Lab_Resources\Web Lab\Part-B\PGR1\PGR1\obj\Debug\PGR1.dll
+D:\Lab_Resources\Web Lab\Part-B\PGR1\PGR1\obj\Debug\PGR1.pdb

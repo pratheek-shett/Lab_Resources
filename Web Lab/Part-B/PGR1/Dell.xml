@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Picture/2.jepg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Picture/4.jepg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Picture/6.jepg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Picture/8.jepg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+</Advertisements>
